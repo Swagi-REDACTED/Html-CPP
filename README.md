@@ -3,7 +3,7 @@
 DynHTML is a custom ecosystem composed of a React-based web builder and a lightweight, single-header C++ rendering engine (`HtmlRenderer.hpp`). It is designed specifically to bring rich web aesthetic pipelines into native DirectX 11 / ImGui applications.
 
 ## What is this?
-Instead of embedding a massive headless browser (like CEF) to render web interfaces, DynHTML allows you to author HTML and glassmorphic CSS dynamically. The Web App acts as a playground/generator to scaffold the features you need. The output is a C++17 single-header library that gives you a **FiveM DUI-like pipeline**, but entirely self-contained.
+Instead of embedding a massive headless browser (like CEF) to render web interfaces, DynHTML allows you to author HTML and glassmorphic CSS dynamically. The Web App acts as a playground/generator to scaffold the features you need. The output is a C++ 17+ single-header library that gives you a **FiveM DUI-like pipeline**, but entirely self-contained.
 
 It parses and rasterizes your HTML surfaces natively on the CPU or GPU and seamlessly pumps the composite directly into an `ID3D11ShaderResourceView*`, which can be immediately used with `ImGui::Image()`.
 
